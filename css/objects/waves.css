@@ -1,0 +1,21 @@
+.device {
+    position: absolute
+   /* background: black; */
+}
+.waves {
+     /* position: relative; */
+     /* width: 100vw; */
+    /* position: absolute; */
+    /* display: flex; */
+}
+
+.wave {
+    position: absolute;
+}
+.wave__1 {
+    transform: rotate(25deg)
+}
+.wave__2 {
+    /*  */
+
+}

@@ -1,0 +1,11 @@
+.wireframe-sphere {
+    width: calc(45vw + 150px);
+
+    position: absolute;
+    z-index: 1;
+
+    top: 15vw;
+    left: 40vw;
+
+    transform: rotate(-25deg);
+}

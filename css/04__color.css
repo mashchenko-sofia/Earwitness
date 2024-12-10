@@ -1,0 +1,15 @@
+.main {
+    background: var(--bg-color);
+}
+.running-line {
+    color: var(--main-color);
+}
+.button__witness {
+    color: var(--main-color);
+}
+.text-circle {
+    fill: var(--main-color);
+}
+.circle {
+    background: var(--main-color);
+}

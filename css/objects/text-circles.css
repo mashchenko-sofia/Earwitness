@@ -1,0 +1,32 @@
+.text-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    width: calc(30vw + 250px);
+    
+    /* display:none; */
+    position: absolute;
+    z-index: 2;
+}
+.text-circle {
+    display: block;
+    overflow: visible;
+
+    position: absolute;
+}
+.text-circle path {
+    display: none;
+}
+.text-circle__1 {
+    width: 100%;
+}
+.text-circle__2 {
+    width: 85%;
+    transform: rotate(10deg);
+}
+.text-circle__3 {
+    width: 70%;
+    transform: rotate(25deg);
+}

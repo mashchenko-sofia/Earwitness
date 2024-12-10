@@ -1,0 +1,15 @@
+.circles {
+    /* display: flex;
+    justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    text-wrap: nowrap;
+    /* position: absolute; */
+    overflow: hidden;
+
+}
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
