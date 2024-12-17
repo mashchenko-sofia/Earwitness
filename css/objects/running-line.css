@@ -1,0 +1,22 @@
+.running-line {
+    margin: 48px 0;
+    /* border: 1px dashed white; */
+    /* transform: translate(-25vw); */
+    /* background: url(/imgs/running-line-borders.svg); */
+    /* background-size: 50vw; */
+    /* background: white; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.running-line__border {
+    width: 100vw; 
+}
+.running-line__text {
+    margin: 10px 0;
+    text-wrap: nowrap;
+
+    animation: running-line 5s linear infinite;
+}

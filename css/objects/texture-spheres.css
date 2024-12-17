@@ -1,0 +1,74 @@
+.texture-spheres {
+    position: relative;
+
+    min-height: 1000px;
+    height: 60vw;
+}
+.texture-sphere {
+    position: absolute;
+}   
+.texture-sphere__1 {
+    min-width: 172px;
+    width: 10vw;
+
+    left: 16%;
+    top: 12%;
+}
+.texture-sphere__2 {
+    min-width: 349px;
+    width: 20vw;
+
+    left: 40%;
+    top: 22%;
+}
+.texture-sphere__3 {
+    min-width: 224px;
+    width: 15vw;
+
+    left: 75%;
+    top: 20%;
+}
+.texture-sphere__4 {
+    min-width: 541px;
+    width: 30vw;
+
+    left: -10%;
+    top: 42%;
+}
+.texture-sphere__5 {
+    min-width: 192px;
+    width: 12vw;
+
+    left: 60%;
+    top: 70%;
+}
+/* .texture-sphere__1 {
+    width: 172px;
+
+    left: 16vw;
+    top: 12vw;
+}
+.texture-sphere__2 {
+    width: 349px;
+
+    left: 40vw;
+    top: 22vw;
+}
+.texture-sphere__3 {
+    width: 224px;
+
+    left: 75vw;
+    top: 20vw;
+}
+.texture-sphere__4 {
+    width: 541px;
+
+    left: -10vw;
+    top: 42vw;
+}
+.texture-sphere__5 {
+    width: 192px;
+
+    left: 60vw;
+    top: 70vw;
+} */

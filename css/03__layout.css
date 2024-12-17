@@ -1,13 +1,15 @@
 .main {
     width: 100vw;
-    min-height: 100vh;
+    
+    /* min-height: 100vh; */
+    /* height: 3364px; */
 
     position: relative;
     overflow: hidden;
 
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 

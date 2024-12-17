@@ -1,0 +1,63 @@
+.noise {
+    position: relative;
+    width: calc(49vw + 250px);
+
+    margin: -25vw 0 5vw -15vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.text-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: inherit;
+    
+    /* display:none; */
+    /* position: absolute; */
+    position: relative;
+    /* z-index: 2; */
+}
+.text-circle {
+    display: block;
+    overflow: visible;
+
+    /* position: absolute; */
+}
+.text-circle path {
+    display: none;
+}
+.text-circle__1 {
+    /* position: absolute; */
+    width: 100%;
+}
+.text-circle__2 {
+    position: absolute;
+
+    width: 85%;
+    filter: blur(1px);
+    transform: rotate(10deg);
+}
+.text-circle__3 {
+    position: absolute;
+
+    width: 70%;
+    filter: blur(2px);
+    transform: rotate(25deg);
+}
+
+
+
+.beat {
+    position: absolute;
+
+    width: 45%;
+}
+.beat path {
+    fill: white;
+}

@@ -1,0 +1,56 @@
+.device {
+    position: relative;
+    width: calc(95vw + 210px);
+    height: calc(95vw + 210px);
+
+    top: -3vw;
+    left: 10vw; 
+
+
+    /* 
+    width: calc(50vw + 150px);
+
+    top: 15vw;
+    left: 40vw; 
+    */
+}
+
+
+
+.wireframe-sphere {
+    position: absolute;
+    width: 55%;
+    margin: 23% 0 0 23%;
+    transform: rotate(-25deg);
+}
+
+.waves {
+    position: relative;
+    width: inherit;
+}
+.wave {
+    position: absolute;
+    width: inherit;
+}
+.wave__1 {
+    transform: rotate(18deg)
+}
+
+.arrows {
+    position: absolute;
+    margin: 68% 0 0 23%;
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+}
+.arrow {
+    width: 60%;
+}
+.arrow__2 {
+    margin: -2% 0 0 10%;
+}
+.arrow__3 {
+    margin: -2% 0 0 20%;
+}

@@ -86,3 +86,6 @@ input:focus, input:active,
 button:focus, button:active {
     outline: none;
 }
+* {
+    scrollbar-width: none;
+}

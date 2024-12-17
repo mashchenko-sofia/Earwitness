@@ -9,7 +9,11 @@
 }
 .circle {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+
+    min-width: 30px;
+    min-height: 30px;
+    width: 3vw;
+    height: 3vw;
+
     border-radius: 50%;
 }
