@@ -1,6 +1,8 @@
 .puls {
     position: absolute;
 
-    left: 40%;
+    width: 700px;
+
+    left: 40vw;
     top: 22%;
 }

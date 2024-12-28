@@ -1,0 +1,11 @@
+@media  screen and (max-width: 760px) {
+        .circles {
+        text-wrap: wrap;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .puls {
+        left: 10vw;
+        top: 30%;
+    }
+}
