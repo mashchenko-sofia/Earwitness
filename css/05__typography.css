@@ -10,20 +10,26 @@
     font-weight:  400;
     font-style:  italic;
 }
+
+/* ---------------------------------------------------------- */
+
 body {
     font-family: "ABeeZee", sans-serif;
 }
+
+/* ---------------------------------------------------------- */
+
 .running-line {
-    font-size: calc(4vw + 15px) ;
+    font-size: calc(4vw + 15px);
     letter-spacing: 18px;
 }
 .button__witness {
-    font-size: calc(8vw + 10px) ;
+    font-size: calc(8vw + 10px);
     text-align: center;
     line-height: 80%;
 }
 .text-circle {
     font-size: 6px;
-    word-spacing: 1.2px;
-    letter-spacing: 1.3px;
+    word-spacing: 0.6px;
+    letter-spacing: 2px;
 }

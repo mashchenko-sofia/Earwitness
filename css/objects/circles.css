@@ -1,11 +1,5 @@
 .circles {
-    /* display: flex;
-    justify-content: space-between; */
-    /* flex-wrap: wrap; */
     text-wrap: nowrap;
-    /* position: absolute; */
-    overflow: hidden;
-
 }
 .circle {
     display: inline-block;
@@ -16,4 +10,19 @@
     height: 3vw;
 
     border-radius: 50%;
+}
+.circle__1 {
+    animation: circle 1s ease-in-out infinite;
+}
+.circle__2 {
+    animation: circle 1.5s ease-in-out infinite;
+}
+.circle__3 {
+    animation: circle 2s ease-in-out infinite;
+}
+.circle__4 {
+    animation: circle 2.5s ease-in-out infinite;
+}
+.circle__5 {
+    animation: circle 3s ease-in-out infinite;
 }

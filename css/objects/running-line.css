@@ -1,22 +1,20 @@
 .running-line {
     margin: 48px 0;
-    /* border: 1px dashed white; */
-    /* transform: translate(-25vw); */
-    /* background: url(/imgs/running-line-borders.svg); */
-    /* background-size: 50vw; */
-    /* background: white; */
 
     display: flex;
     flex-direction: column;
     gap: 20px;
 
+    z-index: 100;
 }
 .running-line__border {
-    width: 100vw; 
+    width: 200%; 
+    animation: running-line-border-toright 5s linear infinite;
 }
 .running-line__text {
-    margin: 10px 0;
     text-wrap: nowrap;
+    line-height: 5vw;
 
-    animation: running-line 5s linear infinite;
+    animation: running-line-text-toleft 2.5s linear infinite;
+    transition: 0.5 ease-in-out;
 }

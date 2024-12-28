@@ -5,45 +5,71 @@
 
     top: -3vw;
     left: 10vw; 
-
-
-    /* 
-    width: calc(50vw + 150px);
-
-    top: 15vw;
-    left: 40vw; 
-    */
 }
 
+/* ---------------------------------------------------------- */
 
+.button-witness {
+    position: absolute;
+    z-index: 100;
+
+    width: 40vw;
+    margin: 10vw 0 0 15vw;
+
+    animation: button-witness 1s ease-in-out infinite;
+}
+
+/* ---------------------------------------------------------- */
 
 .wireframe-sphere {
     position: absolute;
+    z-index: 50;
+
+    scale: 0.9;
+    opacity: 0.7;
+    
     width: 55%;
     margin: 23% 0 0 23%;
-    transform: rotate(-25deg);
+
+    animation: sphere 3s ease-in-out infinite;
+    transition: scale 1s ease-in-out;
 }
+
+/* ---------------------------------------------------------- */
 
 .waves {
     position: relative;
     width: inherit;
+    z-index: 40;
 }
 .wave {
     position: absolute;
     width: inherit;
 }
 .wave__1 {
-    transform: rotate(18deg)
+    transform: rotate(18deg);
+
+    animation: wave1-rotation 10s infinite linear, 
+               wave1-scale 3s infinite linear;
 }
+.wave__2 {
+    animation: wave2-rotation 10s infinite linear, 
+               wave2-scale 3s infinite linear;
+}
+
+/* ---------------------------------------------------------- */
 
 .arrows {
     position: absolute;
-    margin: 68% 0 0 23%;
+    z-index: 80;
 
+    margin: 68% 0 0 23%;
     width: 30%;
 
     display: flex;
     flex-direction: column;
+
+    animation: arrows 2.5s ease-in-out infinite;
 }
 .arrow {
     width: 60%;
@@ -52,5 +78,5 @@
     margin: -2% 0 0 10%;
 }
 .arrow__3 {
-    margin: -2% 0 0 20%;
+    margin: -4% 0 0 20%;
 }

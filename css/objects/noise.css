@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-
+/* ---------------------------------------------------------- */
 
 .text-circles {
     display: flex;
@@ -18,46 +18,48 @@
     
     width: inherit;
     
-    /* display:none; */
-    /* position: absolute; */
     position: relative;
-    /* z-index: 2; */
 }
 .text-circle {
     display: block;
     overflow: visible;
-
-    /* position: absolute; */
 }
 .text-circle path {
     display: none;
 }
 .text-circle__1 {
-    /* position: absolute; */
+    z-index: 10;
+
     width: 100%;
+
+    animation: clockwise 4s ease-in-out infinite;
 }
 .text-circle__2 {
     position: absolute;
+    z-index: 20;
 
     width: 85%;
     filter: blur(1px);
-    transform: rotate(10deg);
+
+    animation: anticlockwise 7s ease-in-out infinite;
 }
 .text-circle__3 {
     position: absolute;
+    z-index: 30;
 
     width: 70%;
     filter: blur(2px);
-    transform: rotate(25deg);
+
+    animation: clockwise 10s ease-in-out infinite;
 }
 
-
+/* ---------------------------------------------------------- */
 
 .beat {
     position: absolute;
+    z-index: 40;
 
     width: 45%;
-}
-.beat path {
-    fill: white;
+
+    transition: all 0.5s ease-in-out;
 }
